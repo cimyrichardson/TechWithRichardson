@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://richardsonclifordcimy.netlify.app/sitemap.xml
