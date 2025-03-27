@@ -377,7 +377,8 @@ header details summary{
 .services .box-container .box p{
   font-size: 1.5rem;
   color: var(--light-color);
-  line-height: 2;
+  line-height: 1.5;
+  text-align: left;
 }
 
 /* services end */
@@ -663,7 +664,7 @@ header details summary{
   margin-top: 3rem;
   padding-top: 3rem;
   font-size: 2rem;
-  color: var(--primary);
+  color: var(--white);
   border-top: .1rem solid var(--primary);
 }
 
@@ -672,7 +673,7 @@ header details summary{
 }
 
 .footer .link:hover{
-  color: var(--hover);
+  color: var(--primary);
   text-decoration: underline;
 }
 
