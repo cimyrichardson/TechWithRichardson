@@ -435,6 +435,7 @@ header details summary{
 
 .faq .accordion-container .accordion .accordion-content{
   font-size: 1.5rem;
+  text-align: justify;
   padding: 1.5rem 2rem;
   border: var(--border);
   background: var(--white);
@@ -666,10 +667,14 @@ header details summary{
   border-top: .1rem solid var(--primary);
 }
 
-.footer .credit span{
+.footer .credit span .link{
   color: var(--white);
 }
 
+.footer .link:hover{
+  color: var(--hover);
+  text-decoration: underline;
+}
 
 /* footer ends */
 
